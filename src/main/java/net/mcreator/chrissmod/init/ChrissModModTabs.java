@@ -21,11 +21,11 @@ public class ChrissModModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(ChrissModModBlocks.ONION_PLANT.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(ChrissModModItems.TOMATO.get());
 			tabData.accept(ChrissModModItems.ONION.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(ChrissModModBlocks.ONION_PLANT.get().asItem());
 		}
 	}
 }
