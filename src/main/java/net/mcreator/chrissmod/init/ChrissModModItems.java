@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.chrissmod.item.TomatoItem;
 import net.mcreator.chrissmod.item.PitaItem;
+import net.mcreator.chrissmod.item.OnionItem;
 import net.mcreator.chrissmod.ChrissModMod;
 
 public class ChrissModModItems {
@@ -22,6 +23,7 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> TEST = block(ChrissModModBlocks.TEST);
 	public static final RegistryObject<Item> PITA = REGISTRY.register("pita", () -> new PitaItem());
 	public static final RegistryObject<Item> TOMATO = REGISTRY.register("tomato", () -> new TomatoItem());
+	public static final RegistryObject<Item> ONION = REGISTRY.register("onion", () -> new OnionItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
