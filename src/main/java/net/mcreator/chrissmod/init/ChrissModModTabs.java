@@ -23,6 +23,7 @@ public class ChrissModModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(ChrissModModBlocks.ONION_PLANT.get().asItem());
+			tabData.accept(ChrissModModBlocks.TOMATO.get().asItem());
 		}
 	}
 }
