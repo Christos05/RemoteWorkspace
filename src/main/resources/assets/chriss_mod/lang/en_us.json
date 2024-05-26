@@ -3,5 +3,6 @@
   "block.chriss_mod.tomato": "Tomato",
   "block.chriss_mod.test": "Test",
   "block.chriss_mod.luna": "Luna",
-  "block.chriss_mod.onion_plant": "Onion Plant"
+  "block.chriss_mod.onion_plant": "Onion Plant",
+  "item.chriss_mod.tomato": "Tomato"
 }

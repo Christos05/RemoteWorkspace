@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.chrissmod.item.TomatoItem;
 import net.mcreator.chrissmod.item.PitaItem;
 import net.mcreator.chrissmod.ChrissModMod;
 
@@ -21,6 +22,7 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> TEST = block(ChrissModModBlocks.TEST);
 	public static final RegistryObject<Item> PITA = REGISTRY.register("pita", () -> new PitaItem());
 	public static final RegistryObject<Item> LUNA = block(ChrissModModBlocks.LUNA);
+	public static final RegistryObject<Item> TOMATO = REGISTRY.register("tomato", () -> new TomatoItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
