@@ -33,23 +33,6 @@
           "src/main/resources/assets/chriss_mod/models/block/test.json"
         ]
       }
-    },
-    {
-      "name": "Tomato",
-      "type": "plant",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tomato",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chriss_mod/blockstates/tomato.json",
-          "src/main/resources/data/chriss_mod/loot_tables/blocks/tomato.json",
-          "src/main/resources/assets/chriss_mod/models/block/tomato.json",
-          "src/main/java/net/mcreator/chrissmod/block/TomatoBlock.java",
-          "src/main/resources/assets/chriss_mod/models/item/tomato.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -57,7 +40,6 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "block.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.test": "Test",
       "block.chriss_mod.onion_plant": "Onion Plant"
     }
