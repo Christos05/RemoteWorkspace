@@ -61,6 +61,20 @@
           "src/main/resources/assets/chriss_mod/blockstates/onion_plant.json"
         ]
       }
+    },
+    {
+      "name": "OnionSeeds",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/onion_seeds.json",
+          "src/main/java/net/mcreator/chrissmod/item/OnionSeedsItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -70,6 +84,7 @@
     "en_us": {
       "block.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.test": "Test",
+      "item.chriss_mod.onion_seeds": "Onion Seeds",
       "item.chriss_mod.onion": "Onion",
       "block.chriss_mod.onion_plant": "Onion Plant",
       "item.chriss_mod.tomato": "Tomato"
