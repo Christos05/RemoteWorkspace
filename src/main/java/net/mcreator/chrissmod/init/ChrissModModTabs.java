@@ -23,10 +23,6 @@ public class ChrissModModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(ChrissModModItems.TOMATO.get());
-			tabData.accept(ChrissModModItems.ONION.get());
-			tabData.accept(ChrissModModItems.ONION_SEEDS.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(ChrissModModBlocks.ONION_PLANT.get().asItem());
 		}
 	}
 }
