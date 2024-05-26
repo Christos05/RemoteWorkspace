@@ -1,8 +1,8 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "chriss_mod:block/white_texture",
-    "particle": "chriss_mod:block/white_texture"
+    "cross": "chriss_mod:block/ball",
+    "particle": "chriss_mod:block/ball"
   },
   "render_type": "cutout"
 }
