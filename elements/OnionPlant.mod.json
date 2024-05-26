@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "ball",
+    "texture": "white_texture",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
