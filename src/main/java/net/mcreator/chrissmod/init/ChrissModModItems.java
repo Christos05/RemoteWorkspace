@@ -17,6 +17,7 @@ import net.mcreator.chrissmod.ChrissModMod;
 public class ChrissModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ChrissModMod.MODID);
 	public static final RegistryObject<Item> ONION_PLANT = block(ChrissModModBlocks.ONION_PLANT);
+	public static final RegistryObject<Item> TEST = block(ChrissModModBlocks.TEST);
 
 	// Start of user code block custom items
 	// End of user code block custom items

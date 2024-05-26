@@ -3,6 +3,7 @@
     {
       "name": "OnionPlant",
       "type": "plant",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "onion_plant",
@@ -15,6 +16,23 @@
           "src/main/resources/assets/chriss_mod/blockstates/onion_plant.json"
         ]
       }
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/test.json",
+          "src/main/resources/assets/chriss_mod/models/item/test.json",
+          "src/main/java/net/mcreator/chrissmod/block/TestBlock.java",
+          "src/main/resources/assets/chriss_mod/blockstates/test.json",
+          "src/main/resources/assets/chriss_mod/models/block/test.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -22,6 +40,7 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
+      "block.chriss_mod.test": "Test",
       "block.chriss_mod.onion_plant": "Onion Plant"
     }
   },
