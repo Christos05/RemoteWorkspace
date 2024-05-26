@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.chrissmod.init.ChrissModModTabs;
+import net.mcreator.chrissmod.init.ChrissModModItems;
+import net.mcreator.chrissmod.init.ChrissModModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class ChrissModMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ChrissModModBlocks.REGISTRY.register(bus);
+
+		ChrissModModItems.REGISTRY.register(bus);
+
+		ChrissModModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
