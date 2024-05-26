@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chriss_mod:block/white",
+    "up": "chriss_mod:block/ball",
+    "north": "chriss_mod:block/black",
+    "east": "chriss_mod:block/black",
+    "south": "chriss_mod:block/black",
+    "west": "chriss_mod:block/black",
+    "particle": "chriss_mod:block/white"
+  },
+  "render_type": "solid"
+}

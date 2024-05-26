@@ -64,6 +64,23 @@
           "src/main/resources/assets/chriss_mod/models/item/pita.json"
         ]
       }
+    },
+    {
+      "name": "Luna",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/blockstates/luna.json",
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/luna.json",
+          "src/main/resources/assets/chriss_mod/models/item/luna.json",
+          "src/main/resources/assets/chriss_mod/models/block/luna.json",
+          "src/main/java/net/mcreator/chrissmod/block/LunaBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -74,6 +91,7 @@
       "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.test": "Test",
+      "block.chriss_mod.luna": "Luna",
       "block.chriss_mod.onion_plant": "Onion Plant"
     }
   },
