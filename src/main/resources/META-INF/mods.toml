@@ -5,10 +5,11 @@ license="Not specified"
 [[mods]]
 modId="chriss_mod"
 version="1.0.0"
-displayName="Chris`s Mod"
+displayName="Greek Mod "
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="xristos, MCreator"
+authors="Christos05, Matziaris, HeIsJohn2011, MCreator"
+description="A Mod that ads Greek Delicacies"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

@@ -21,7 +21,6 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> ONION_PLANT = block(ChrissModModBlocks.ONION_PLANT);
 	public static final RegistryObject<Item> TEST = block(ChrissModModBlocks.TEST);
 	public static final RegistryObject<Item> PITA = REGISTRY.register("pita", () -> new PitaItem());
-	public static final RegistryObject<Item> LUNA = block(ChrissModModBlocks.LUNA);
 	public static final RegistryObject<Item> TOMATO = REGISTRY.register("tomato", () -> new TomatoItem());
 
 	// Start of user code block custom items

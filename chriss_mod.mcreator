@@ -49,23 +49,6 @@
       }
     },
     {
-      "name": "Luna",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luna",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chriss_mod/blockstates/luna.json",
-          "src/main/resources/data/chriss_mod/loot_tables/blocks/luna.json",
-          "src/main/java/net/mcreator/chrissmod/block/LunaBlock.java",
-          "src/main/resources/assets/chriss_mod/models/block/luna.json",
-          "src/main/resources/assets/chriss_mod/models/item/luna.json"
-        ]
-      }
-    },
-    {
       "name": "Tomato",
       "type": "item",
       "sortid": 6,
@@ -88,7 +71,6 @@
       "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.test": "Test",
-      "block.chriss_mod.luna": "Luna",
       "block.chriss_mod.onion_plant": "Onion Plant",
       "item.chriss_mod.tomato": "Tomato"
     }
@@ -99,9 +81,10 @@
   },
   "workspaceSettings": {
     "modid": "chriss_mod",
-    "modName": "Chris`s Mod",
+    "modName": "Greek Mod ",
     "version": "1.0.0",
-    "author": "xristos, MCreator",
+    "description": "A Mod that ads Greek Delicacies",
+    "author": "Christos05, Matziaris, HeIsJohn2011, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
