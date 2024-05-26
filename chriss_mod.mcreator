@@ -50,6 +50,20 @@
           "src/main/resources/assets/chriss_mod/models/item/tomato.json"
         ]
       }
+    },
+    {
+      "name": "Pita",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pita",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/PitaItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/pita.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -57,6 +71,7 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
+      "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.test": "Test",
       "block.chriss_mod.onion_plant": "Onion Plant"
