@@ -138,6 +138,41 @@
           "src/main/java/net/mcreator/chrissmod/item/KnifeItem.java"
         ]
       }
+    },
+    {
+      "name": "FarmLandCheckLoop",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_land_check_loop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/procedures/FarmLandCheckLoopProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
