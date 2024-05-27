@@ -9,10 +9,10 @@
       "registry_name": "test",
       "metadata": {
         "files": [
-          "src/main/resources/data/chriss_mod/loot_tables/blocks/test.json",
           "src/main/resources/assets/chriss_mod/models/item/test.json",
-          "src/main/java/net/mcreator/chrissmod/block/TestBlock.java",
           "src/main/resources/assets/chriss_mod/blockstates/test.json",
+          "src/main/java/net/mcreator/chrissmod/block/TestBlock.java",
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/test.json",
           "src/main/resources/assets/chriss_mod/models/block/test.json"
         ]
       }
@@ -26,8 +26,8 @@
       "registry_name": "tomato",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chrissmod/item/TomatoItem.java",
-          "src/main/resources/assets/chriss_mod/models/item/tomato.json"
+          "src/main/resources/assets/chriss_mod/models/item/tomato.json",
+          "src/main/java/net/mcreator/chrissmod/item/TomatoItem.java"
         ]
       }
     },
@@ -94,27 +94,13 @@
       "name": "Pita",
       "type": "item",
       "sortid": 11,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pita",
       "metadata": {
         "files": [
           "src/main/resources/assets/chriss_mod/models/item/pita.json",
           "src/main/java/net/mcreator/chrissmod/item/PitaItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Block2",
-      "type": "item",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chriss_mod/models/item/block_2.json",
-          "src/main/java/net/mcreator/chrissmod/item/Block2Item.java"
         ]
       }
     }
@@ -124,10 +110,10 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
+      "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.test": "Test",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
-      "item.chriss_mod.block_2": "Block 2",
       "item.chriss_mod.onion": "Onion",
       "block.chriss_mod.onion_plant": "Onion Plant",
       "item.chriss_mod.tomato": "Tomato"
