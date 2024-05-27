@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.chrissmod.item.TomatoItem;
+import net.mcreator.chrissmod.item.PitaItem;
 import net.mcreator.chrissmod.item.OnionSeedsItem;
 import net.mcreator.chrissmod.item.OnionItem;
 import net.mcreator.chrissmod.ChrissModMod;
@@ -24,6 +25,7 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> ONION = REGISTRY.register("onion", () -> new OnionItem());
 	public static final RegistryObject<Item> ONION_PLANT = block(ChrissModModBlocks.ONION_PLANT);
 	public static final RegistryObject<Item> ONION_SEEDS = REGISTRY.register("onion_seeds", () -> new OnionSeedsItem());
+	public static final RegistryObject<Item> PITA = REGISTRY.register("pita", () -> new PitaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
