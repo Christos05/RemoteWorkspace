@@ -63,7 +63,7 @@
     "customDrop": {
       "value": "CUSTOM:Onion"
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "forceTicking": false,
     "emissiveRendering": false,
     "hasTileEntity": false,
