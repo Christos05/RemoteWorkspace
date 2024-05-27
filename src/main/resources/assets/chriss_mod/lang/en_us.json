@@ -1,7 +1,8 @@
 {
   "block.chriss_mod.tomato": "Tomato",
   "block.chriss_mod.test": "Test",
-  "block.chriss_mod.onion_plant": "Onion Plant",
+  "item.chriss_mod.onion_seeds": "Onion Seeds",
   "item.chriss_mod.onion": "Onion",
+  "block.chriss_mod.onion_plant": "Onion Plant",
   "item.chriss_mod.tomato": "Tomato"
 }
