@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "tomato_texture",
+    "texture": "black",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

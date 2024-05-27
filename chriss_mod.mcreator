@@ -26,8 +26,8 @@
       "registry_name": "tomato",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chriss_mod/models/item/tomato.json",
-          "src/main/java/net/mcreator/chrissmod/item/TomatoItem.java"
+          "src/main/java/net/mcreator/chrissmod/item/TomatoItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/tomato.json"
         ]
       }
     },
