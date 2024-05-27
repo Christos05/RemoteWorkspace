@@ -16,7 +16,7 @@ public class OnionSeedsItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		OnionSeedsRightclickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
+		OnionSeedsRightclickedOnBlockProcedure.execute();
 		return InteractionResult.SUCCESS;
 	}
 }
