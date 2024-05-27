@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "onion_plant_stage0",
+    "texture": "onion_plant_stage1",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",

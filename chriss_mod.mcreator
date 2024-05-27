@@ -177,6 +177,7 @@
     {
       "name": "OnionPlantStage0",
       "type": "plant",
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "onion_plant_stage_0",
@@ -187,6 +188,40 @@
           "src/main/resources/assets/chriss_mod/blockstates/onion_plant_stage_0.json",
           "src/main/java/net/mcreator/chrissmod/block/OnionPlantStage0Block.java",
           "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_0.json"
+        ]
+      }
+    },
+    {
+      "name": "OnionPlantStage1",
+      "type": "plant",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_plant_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_1.json",
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_stage_1.json",
+          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_stage_1.json",
+          "src/main/java/net/mcreator/chrissmod/block/OnionPlantStage1Block.java",
+          "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "OnionPlantStage2",
+      "type": "plant",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_plant_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_2.json",
+          "src/main/java/net/mcreator/chrissmod/block/OnionPlantStage2Block.java",
+          "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_2.json",
+          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_stage_2.json",
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_stage_2.json"
         ]
       }
     }
@@ -201,6 +236,8 @@
       "block.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.test": "Test",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
+      "block.chriss_mod.onion_plant_stage_2": "Onion Plant",
+      "block.chriss_mod.onion_plant_stage_1": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_0": "Onion Plant",
       "item.chriss_mod.onion": "Onion",
       "block.chriss_mod.onion_plant": "Onion Plant",

@@ -28,6 +28,8 @@ public class ChrissModModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(ChrissModModBlocks.ONION_PLANT.get().asItem());
 			tabData.accept(ChrissModModBlocks.ONION_PLANT_STAGE_0.get().asItem());
+			tabData.accept(ChrissModModBlocks.ONION_PLANT_STAGE_1.get().asItem());
+			tabData.accept(ChrissModModBlocks.ONION_PLANT_STAGE_2.get().asItem());
 		}
 	}
 }
