@@ -75,6 +75,20 @@
           "src/main/java/net/mcreator/chrissmod/item/OnionSeedsItem.java"
         ]
       }
+    },
+    {
+      "name": "OnionSeedsRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_seeds_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/procedures/OnionSeedsRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
