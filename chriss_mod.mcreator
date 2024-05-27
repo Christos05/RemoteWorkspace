@@ -89,6 +89,20 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "Test2",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/test_2.json",
+          "src/main/java/net/mcreator/chrissmod/item/Test2Item.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -96,6 +110,7 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
+      "item.chriss_mod.test_2": "Test 2",
       "block.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.test": "Test",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
