@@ -224,6 +224,19 @@
           "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_2.json"
         ]
       }
+    },
+    {
+      "name": "Kniferecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kniferecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/kniferecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
