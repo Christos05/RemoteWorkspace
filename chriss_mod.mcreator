@@ -173,6 +173,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "Kitchenknife",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kitchenknife",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/kitchenknife.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
