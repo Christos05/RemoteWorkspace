@@ -175,23 +175,10 @@
       }
     },
     {
-      "name": "Kitchenknife",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kitchenknife",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chriss_mod/recipes/kitchenknife.json"
-        ]
-      }
-    },
-    {
       "name": "OnionPlantStage0",
       "type": "plant",
       "sortid": 14,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "onion_plant_stage_0",
       "metadata": {
@@ -208,7 +195,7 @@
       "name": "OnionPlantStage1",
       "type": "plant",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "onion_plant_stage_1",
       "metadata": {
@@ -225,7 +212,7 @@
       "name": "OnionPlantStage2",
       "type": "plant",
       "sortid": 16,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "onion_plant_stage_2",
       "metadata": {
