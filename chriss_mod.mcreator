@@ -224,19 +224,6 @@
           "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_2.json"
         ]
       }
-    },
-    {
-      "name": "Rafi",
-      "type": "loottable",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rafi",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chriss_mod/loot_tables/chests/rafi.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
