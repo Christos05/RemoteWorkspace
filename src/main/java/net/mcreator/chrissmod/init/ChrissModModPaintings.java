@@ -14,5 +14,5 @@ import net.mcreator.chrissmod.ChrissModMod;
 
 public class ChrissModModPaintings {
 	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, ChrissModMod.MODID);
-	public static final RegistryObject<PaintingVariant> CHESSYSTUDIOS = REGISTRY.register("chessystudios", () -> new PaintingVariant(48, 16));
+	public static final RegistryObject<PaintingVariant> CHEESYSTUDIOS = REGISTRY.register("cheesystudios", () -> new PaintingVariant(80, 32));
 }
