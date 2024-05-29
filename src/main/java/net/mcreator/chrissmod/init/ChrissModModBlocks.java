@@ -18,7 +18,6 @@ import net.mcreator.chrissmod.ChrissModMod;
 
 public class ChrissModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ChrissModMod.MODID);
-	public static final RegistryObject<Block> TEST = REGISTRY.register("test", () -> new TestBlock());
 	public static final RegistryObject<Block> ONION_PLANT = REGISTRY.register("onion_plant", () -> new OnionPlantBlock());
 	public static final RegistryObject<Block> ONION_PLANT_STAGE_0 = REGISTRY.register("onion_plant_stage_0", () -> new OnionPlantStage0Block());
 	public static final RegistryObject<Block> ONION_PLANT_STAGE_1 = REGISTRY.register("onion_plant_stage_1", () -> new OnionPlantStage1Block());

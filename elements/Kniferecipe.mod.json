@@ -4,12 +4,12 @@
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
-    "group": "th_greeks",
+    "group": "the_greeks",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
