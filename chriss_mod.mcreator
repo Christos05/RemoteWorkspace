@@ -1,23 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Test",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chriss_mod/models/item/test.json",
-          "src/main/resources/assets/chriss_mod/blockstates/test.json",
-          "src/main/java/net/mcreator/chrissmod/block/TestBlock.java",
-          "src/main/resources/data/chriss_mod/loot_tables/blocks/test.json",
-          "src/main/resources/assets/chriss_mod/models/block/test.json"
-        ]
-      }
-    },
-    {
       "name": "Tomato",
       "type": "item",
       "sortid": 6,
@@ -29,7 +12,8 @@
           "src/main/java/net/mcreator/chrissmod/item/TomatoItem.java",
           "src/main/resources/assets/chriss_mod/models/item/tomato.json"
         ]
-      }
+      },
+      "path": "~/John WorkSpace/Items"
     },
     {
       "name": "Onion",
@@ -43,7 +27,8 @@
           "src/main/java/net/mcreator/chrissmod/item/OnionItem.java",
           "src/main/resources/assets/chriss_mod/models/item/onion.json"
         ]
-      }
+      },
+      "path": "~/Chris WorkSpace/Items"
     },
     {
       "name": "OnionPlant",
@@ -60,7 +45,8 @@
           "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant.json",
           "src/main/resources/assets/chriss_mod/blockstates/onion_plant.json"
         ]
-      }
+      },
+      "path": "~/Chris WorkSpace/Plants/OnionPlant"
     },
     {
       "name": "OnionSeeds",
@@ -74,7 +60,8 @@
           "src/main/resources/assets/chriss_mod/models/item/onion_seeds.json",
           "src/main/java/net/mcreator/chrissmod/item/OnionSeedsItem.java"
         ]
-      }
+      },
+      "path": "~/Chris WorkSpace/Items"
     },
     {
       "name": "OnionSeedsRightclickedOnBlock",
@@ -109,7 +96,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chris WorkSpace/Procedures"
     },
     {
       "name": "Pita",
@@ -123,7 +111,8 @@
           "src/main/resources/assets/chriss_mod/models/item/pita.json",
           "src/main/java/net/mcreator/chrissmod/item/PitaItem.java"
         ]
-      }
+      },
+      "path": "~/Ioannis WorkSpace/Items"
     },
     {
       "name": "Knife",
@@ -137,7 +126,8 @@
           "src/main/resources/assets/chriss_mod/models/item/knife.json",
           "src/main/java/net/mcreator/chrissmod/item/KnifeItem.java"
         ]
-      }
+      },
+      "path": "~/Ioannis WorkSpace/Items"
     },
     {
       "name": "FarmLandCheckLoop",
@@ -172,7 +162,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chris WorkSpace/Procedures"
     },
     {
       "name": "OnionPlantStage0",
@@ -189,7 +180,8 @@
           "src/main/java/net/mcreator/chrissmod/block/OnionPlantStage0Block.java",
           "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_0.json"
         ]
-      }
+      },
+      "path": "~/Chris WorkSpace/Plants/OnionPlant"
     },
     {
       "name": "OnionPlantStage1",
@@ -206,7 +198,8 @@
           "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_stage_1.json",
           "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_1.json"
         ]
-      }
+      },
+      "path": "~/Chris WorkSpace/Plants/OnionPlant"
     },
     {
       "name": "OnionPlantStage2",
@@ -223,7 +216,8 @@
           "src/main/java/net/mcreator/chrissmod/block/OnionPlantStage2Block.java",
           "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_2.json"
         ]
-      }
+      },
+      "path": "~/Chris WorkSpace/Plants/OnionPlant"
     },
     {
       "name": "Kniferecipe",
@@ -236,7 +230,8 @@
         "files": [
           "src/main/resources/data/chriss_mod/recipes/kniferecipe.json"
         ]
-      }
+      },
+      "path": "~/Ioannis WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -247,7 +242,6 @@
       "item.chriss_mod.pita": "Pita",
       "item.chriss_mod.knife": "Knife",
       "block.chriss_mod.tomato": "Tomato",
-      "block.chriss_mod.test": "Test",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
       "block.chriss_mod.onion_plant_stage_2": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_1": "Onion Plant",
@@ -259,7 +253,52 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Chris WorkSpace",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Plants",
+            "children": [
+              {
+                "name": "OnionPlant",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "John WorkSpace",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ioannis WorkSpace",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "chriss_mod",
