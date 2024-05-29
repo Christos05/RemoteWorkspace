@@ -246,6 +246,17 @@
         ]
       },
       "path": "~/Ioannis WorkSpace/Recipes"
+    },
+    {
+      "name": "Chessystudios",
+      "type": "painting",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chessystudios",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -253,16 +264,18 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.chriss_mod.pita": "Pita",
       "item.chriss_mod.knife": "Knife",
-      "block.chriss_mod.tomato": "Tomato",
-      "item.chriss_mod.onion_seeds": "Onion Seeds",
+      "painting.chriss_mod.chessystudios.title": "Chessystudios",
       "block.chriss_mod.onion_plant_stage_2": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_1": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_0": "Onion Plant",
+      "item.chriss_mod.tomato": "Tomato",
+      "item.chriss_mod.pita": "Pita",
+      "block.chriss_mod.tomato": "Tomato",
+      "item.chriss_mod.onion_seeds": "Onion Seeds",
+      "painting.chriss_mod.chessystudios.author": "the_greeks",
       "item.chriss_mod.onion": "Onion",
-      "block.chriss_mod.onion_plant": "Onion Plant",
-      "item.chriss_mod.tomato": "Tomato"
+      "block.chriss_mod.onion_plant": "Onion Plant"
     }
   },
   "foldersRoot": {

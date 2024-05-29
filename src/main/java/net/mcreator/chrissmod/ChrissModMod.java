@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.chrissmod.init.ChrissModModTabs;
+import net.mcreator.chrissmod.init.ChrissModModPaintings;
 import net.mcreator.chrissmod.init.ChrissModModItems;
 import net.mcreator.chrissmod.init.ChrissModModBlocks;
 
@@ -46,6 +47,8 @@ public class ChrissModMod {
 		ChrissModModItems.REGISTRY.register(bus);
 
 		ChrissModModTabs.REGISTRY.register(bus);
+
+		ChrissModModPaintings.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
