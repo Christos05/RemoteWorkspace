@@ -232,6 +232,24 @@
         ]
       },
       "path": "~/Ioannis WorkSpace/Recipes"
+    },
+    {
+      "name": "OnionPlant0",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_plant_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/onion_plant_0.json",
+          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_0.json",
+          "src/main/resources/assets/chriss_mod/models/block/onion_plant_0.json",
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_0.json",
+          "src/main/java/net/mcreator/chrissmod/block/OnionPlant0Block.java"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Plants/OnionPlant"
     }
   ],
   "variable_elements": [],
@@ -242,6 +260,7 @@
       "item.chriss_mod.pita": "Pita",
       "item.chriss_mod.knife": "Knife",
       "block.chriss_mod.tomato": "Tomato",
+      "block.chriss_mod.onion_plant_0": "Onion Plant 0",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
       "block.chriss_mod.onion_plant_stage_2": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_1": "Onion Plant",
