@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.chrissmod.item.TsapaItem;
 import net.mcreator.chrissmod.item.TomatoItem;
 import net.mcreator.chrissmod.item.PitaItem;
 import net.mcreator.chrissmod.item.OnionSeedsItem;
@@ -30,6 +31,7 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> ONION_PLANT_STAGE_0 = block(ChrissModModBlocks.ONION_PLANT_STAGE_0);
 	public static final RegistryObject<Item> ONION_PLANT_STAGE_1 = block(ChrissModModBlocks.ONION_PLANT_STAGE_1);
 	public static final RegistryObject<Item> ONION_PLANT_STAGE_2 = block(ChrissModModBlocks.ONION_PLANT_STAGE_2);
+	public static final RegistryObject<Item> TSAPA = REGISTRY.register("tsapa", () -> new TsapaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
