@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "onion_plant_stage1",
+    "texture": "onion_plant_stage2",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -28,12 +28,12 @@
         "my": 0.001,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 6.0,
+        "My": 10.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Onion Plant 1",
+    "name": "Onion Plant 2",
     "specialInformation": {
       "fixedValue": []
     },
@@ -78,7 +78,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"

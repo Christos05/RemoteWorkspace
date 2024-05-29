@@ -23,15 +23,13 @@ public class ChrissModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ChrissModMod.MODID);
 	public static final RegistryObject<Item> TOMATO = REGISTRY.register("tomato", () -> new TomatoItem());
 	public static final RegistryObject<Item> ONION = REGISTRY.register("onion", () -> new OnionItem());
-	public static final RegistryObject<Item> ONION_PLANT = block(ChrissModModBlocks.ONION_PLANT);
 	public static final RegistryObject<Item> ONION_SEEDS = REGISTRY.register("onion_seeds", () -> new OnionSeedsItem());
 	public static final RegistryObject<Item> PITA = REGISTRY.register("pita", () -> new PitaItem());
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
-	public static final RegistryObject<Item> ONION_PLANT_STAGE_0 = block(ChrissModModBlocks.ONION_PLANT_STAGE_0);
-	public static final RegistryObject<Item> ONION_PLANT_STAGE_1 = block(ChrissModModBlocks.ONION_PLANT_STAGE_1);
-	public static final RegistryObject<Item> ONION_PLANT_STAGE_2 = block(ChrissModModBlocks.ONION_PLANT_STAGE_2);
 	public static final RegistryObject<Item> ONION_PLANT_0 = block(ChrissModModBlocks.ONION_PLANT_0);
 	public static final RegistryObject<Item> ONION_PLANT_1 = block(ChrissModModBlocks.ONION_PLANT_1);
+	public static final RegistryObject<Item> ONION_PLANT_2 = block(ChrissModModBlocks.ONION_PLANT_2);
+	public static final RegistryObject<Item> ONION_PLANT_3 = block(ChrissModModBlocks.ONION_PLANT_3);
 
 	// Start of user code block custom items
 	// End of user code block custom items

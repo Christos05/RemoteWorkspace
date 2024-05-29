@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "chriss_mod:blocks/onion_plant",
+  "random_sequence": "chriss_mod:blocks/onion_plant_2",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "chriss_mod:onion"
+          "name": "chriss_mod:onion_seeds"
         }
       ]
     }

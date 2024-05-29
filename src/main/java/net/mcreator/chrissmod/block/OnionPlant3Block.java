@@ -21,11 +21,11 @@ import net.minecraft.world.Containers;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.chrissmod.init.ChrissModModItems;
-import net.mcreator.chrissmod.block.entity.OnionPlant1BlockEntity;
+import net.mcreator.chrissmod.block.entity.OnionPlant3BlockEntity;
 
-public class OnionPlant1Block extends Block implements EntityBlock {
-	public OnionPlant1Block() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noCollission().noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false));
+public class OnionPlant3Block extends Block implements EntityBlock {
+	public OnionPlant3Block() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -45,12 +45,12 @@ public class OnionPlant1Block extends Block implements EntityBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(0, 0.001, 0, 16, 6, 16);
+		return box(0, 0.001, 0, 16, 14, 16);
 	}
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(ChrissModModItems.ONION_SEEDS.get());
+		return new ItemStack(ChrissModModItems.ONION.get());
 	}
 
 	@Override
@@ -61,7 +61,7 @@ public class OnionPlant1Block extends Block implements EntityBlock {
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new OnionPlant1BlockEntity(pos, state);
+		return new OnionPlant3BlockEntity(pos, state);
 	}
 
 	@Override
@@ -75,7 +75,7 @@ public class OnionPlant1Block extends Block implements EntityBlock {
 	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
 		if (state.getBlock() != newState.getBlock()) {
 			BlockEntity blockEntity = world.getBlockEntity(pos);
-			if (blockEntity instanceof OnionPlant1BlockEntity be) {
+			if (blockEntity instanceof OnionPlant3BlockEntity be) {
 				Containers.dropContents(world, pos, be);
 				world.updateNeighbourForOutputSignal(pos, this);
 			}
@@ -91,7 +91,7 @@ public class OnionPlant1Block extends Block implements EntityBlock {
 	@Override
 	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
-		if (tileentity instanceof OnionPlant1BlockEntity be)
+		if (tileentity instanceof OnionPlant3BlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;

@@ -1,14 +1,12 @@
 {
   "item.chriss_mod.knife": "Knife",
-  "block.chriss_mod.onion_plant_stage_2": "Onion Plant",
-  "block.chriss_mod.onion_plant_stage_1": "Onion Plant",
-  "block.chriss_mod.onion_plant_stage_0": "Onion Plant",
   "item.chriss_mod.tomato": "Tomato",
+  "block.chriss_mod.onion_plant_3": "Onion Plant 3",
   "item.chriss_mod.pita": "Pita",
+  "block.chriss_mod.onion_plant_2": "Onion Plant 2",
   "block.chriss_mod.onion_plant_1": "Onion Plant 1",
   "block.chriss_mod.tomato": "Tomato",
   "block.chriss_mod.onion_plant_0": "Onion Plant 0",
   "item.chriss_mod.onion_seeds": "Onion Seeds",
-  "item.chriss_mod.onion": "Onion",
-  "block.chriss_mod.onion_plant": "Onion Plant"
+  "item.chriss_mod.onion": "Onion"
 }

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "chriss_mod:block/onion_plant"
-  }
-}

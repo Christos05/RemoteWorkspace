@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "onion_plant_stage1",
+    "texture": "onion_plant",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -28,12 +28,12 @@
         "my": 0.001,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 6.0,
+        "My": 14.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Onion Plant 1",
+    "name": "Onion Plant 3",
     "specialInformation": {
       "fixedValue": []
     },
@@ -46,10 +46,10 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:OnionSeeds"
+      "value": "CUSTOM:Onion"
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -59,7 +59,7 @@
       "value": "PLANTS"
     },
     "tickRate": 0,
-    "tickRandomly": true,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -67,7 +67,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:OnionSeeds"
+      "value": "CUSTOM:Onion"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -78,7 +78,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"

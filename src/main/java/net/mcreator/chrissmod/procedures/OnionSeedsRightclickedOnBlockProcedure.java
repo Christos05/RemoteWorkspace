@@ -20,7 +20,7 @@ public class OnionSeedsRightclickedOnBlockProcedure {
 		ItemStack Seeds = ItemStack.EMPTY;
 		BlockState OnionPlantStage0 = Blocks.AIR.defaultBlockState();
 		Seeds = new ItemStack(ChrissModModItems.ONION_SEEDS.get());
-		OnionPlantStage0 = ChrissModModBlocks.ONION_PLANT_STAGE_0.get().defaultBlockState();
+		OnionPlantStage0 = ChrissModModBlocks.ONION_PLANT_0.get().defaultBlockState();
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Seeds.getItem() && (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.FARMLAND
 				&& (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.AIR && OnionPlantStage0.canSurvive(world, BlockPos.containing(x, y + 1, z))) {
 			world.setBlock(BlockPos.containing(x, y + 1, z), OnionPlantStage0, 3);
