@@ -243,10 +243,77 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chriss_mod/models/item/onion_plant_0.json",
+          "src/main/java/net/mcreator/chrissmod/block/entity/OnionPlant0BlockEntity.java",
           "src/main/resources/assets/chriss_mod/blockstates/onion_plant_0.json",
           "src/main/resources/assets/chriss_mod/models/block/onion_plant_0.json",
           "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_0.json",
           "src/main/java/net/mcreator/chrissmod/block/OnionPlant0Block.java"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Plants/OnionPlant"
+    },
+    {
+      "name": "CanPlaceOnionBlock",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_place_onion_block",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/procedures/CanPlaceOnionBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chris WorkSpace/Procedures"
+    },
+    {
+      "name": "OnionPlantUpdate",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_plant_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/procedures/OnionPlantUpdateProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Chris WorkSpace/Procedures"
+    },
+    {
+      "name": "OnionPlant1",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_plant_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_1.json",
+          "src/main/java/net/mcreator/chrissmod/block/OnionPlant1Block.java",
+          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_1.json",
+          "src/main/resources/assets/chriss_mod/models/block/onion_plant_1.json",
+          "src/main/resources/assets/chriss_mod/models/item/onion_plant_1.json"
         ]
       },
       "path": "~/Chris WorkSpace/Plants/OnionPlant"
@@ -257,17 +324,18 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.chriss_mod.pita": "Pita",
       "item.chriss_mod.knife": "Knife",
-      "block.chriss_mod.tomato": "Tomato",
-      "block.chriss_mod.onion_plant_0": "Onion Plant 0",
-      "item.chriss_mod.onion_seeds": "Onion Seeds",
       "block.chriss_mod.onion_plant_stage_2": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_1": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_0": "Onion Plant",
+      "item.chriss_mod.tomato": "Tomato",
+      "item.chriss_mod.pita": "Pita",
+      "block.chriss_mod.onion_plant_1": "Onion Plant 1",
+      "block.chriss_mod.tomato": "Tomato",
+      "block.chriss_mod.onion_plant_0": "Onion Plant 0",
+      "item.chriss_mod.onion_seeds": "Onion Seeds",
       "item.chriss_mod.onion": "Onion",
-      "block.chriss_mod.onion_plant": "Onion Plant",
-      "item.chriss_mod.tomato": "Tomato"
+      "block.chriss_mod.onion_plant": "Onion Plant"
     }
   },
   "foldersRoot": {
