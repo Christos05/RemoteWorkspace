@@ -256,7 +256,8 @@
       "registry_name": "cheesystudios",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Ioannis WorkSpace/Paintings"
     }
   ],
   "variable_elements": [],
@@ -321,6 +322,10 @@
           },
           {
             "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Paintings",
             "children": []
           }
         ]
