@@ -171,14 +171,14 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onion_plant_stage_0a",
+      "registry_name": "onion_plant_stage_0",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_0a.json",
-          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_stage_0a.json",
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_stage_0.json",
+          "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_0.json",
+          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_stage_0.json",
           "src/main/java/net/mcreator/chrissmod/block/OnionPlantStage0Block.java",
-          "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_0a.json",
-          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_stage_0a.json"
+          "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_0.json"
         ]
       },
       "path": "~/Chris WorkSpace/Plants/OnionPlant"
@@ -189,14 +189,14 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onion_plant_stage_1a",
+      "registry_name": "onion_plant_stage_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_1a.json",
-          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_stage_1a.json",
+          "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_1.json",
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_stage_1.json",
+          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_stage_1.json",
           "src/main/java/net/mcreator/chrissmod/block/OnionPlantStage1Block.java",
-          "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_1a.json",
-          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_stage_1a.json"
+          "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_1.json"
         ]
       },
       "path": "~/Chris WorkSpace/Plants/OnionPlant"
@@ -207,14 +207,14 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onion_plant_stage_2a",
+      "registry_name": "onion_plant_stage_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_2.json",
           "src/main/java/net/mcreator/chrissmod/block/OnionPlantStage2Block.java",
-          "src/main/resources/assets/chriss_mod/models/block/onion_plant_stage_2a.json",
-          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_stage_2a.json",
-          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_stage_2a.json",
-          "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_2a.json"
+          "src/main/resources/assets/chriss_mod/models/item/onion_plant_stage_2.json",
+          "src/main/resources/assets/chriss_mod/blockstates/onion_plant_stage_2.json",
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_stage_2.json"
         ]
       },
       "path": "~/Chris WorkSpace/Plants/OnionPlant"
@@ -250,6 +250,23 @@
         ]
       },
       "path": "~/Chris WorkSpace/Plants/OnionPlant"
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/test.json",
+          "src/main/resources/assets/chriss_mod/blockstates/test.json",
+          "src/main/java/net/mcreator/chrissmod/block/TestBlock.java",
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/test.json",
+          "src/main/resources/assets/chriss_mod/models/block/test.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -257,67 +274,24 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.chriss_mod.pita": "Pita",
       "item.chriss_mod.knife": "Knife",
+      "block.chriss_mod.onion_plant_stage_2": "Onion Plant",
+      "block.chriss_mod.onion_plant_stage_1": "Onion Plant",
+      "block.chriss_mod.onion_plant_stage_0": "Onion Plant",
+      "item.chriss_mod.tomato": "Tomato",
+      "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.tomato": "Tomato",
-      "block.chriss_mod.onion_plant_0": "Onion Plant 0",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
       "block.chriss_mod.onion_plant_stage_0a": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_1a": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_2a": "Onion Plant",
       "item.chriss_mod.onion": "Onion",
-      "block.chriss_mod.onion_plant": "Onion Plant",
-      "item.chriss_mod.tomato": "Tomato"
+      "block.chriss_mod.onion_plant": "Onion Plant"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": [
-      {
-        "name": "Chris WorkSpace",
-        "children": [
-          {
-            "name": "Items",
-            "children": []
-          },
-          {
-            "name": "Plants",
-            "children": [
-              {
-                "name": "OnionPlant",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Procedures",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "John WorkSpace",
-        "children": [
-          {
-            "name": "Items",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Ioannis WorkSpace",
-        "children": [
-          {
-            "name": "Items",
-            "children": []
-          },
-          {
-            "name": "Recipes",
-            "children": []
-          }
-        ]
-      }
-    ]
+    "children": []
   },
   "workspaceSettings": {
     "modid": "chriss_mod",

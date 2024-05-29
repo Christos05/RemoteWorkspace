@@ -27,9 +27,9 @@ public class ChrissModModTabs {
 			tabData.accept(ChrissModModItems.ONION_SEEDS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(ChrissModModBlocks.ONION_PLANT.get().asItem());
-			tabData.accept(ChrissModModBlocks.ONION_PLANT_STAGE_0A.get().asItem());
-			tabData.accept(ChrissModModBlocks.ONION_PLANT_STAGE_1A.get().asItem());
-			tabData.accept(ChrissModModBlocks.ONION_PLANT_STAGE_2A.get().asItem());
+			tabData.accept(ChrissModModBlocks.ONION_PLANT_STAGE_0.get().asItem());
+			tabData.accept(ChrissModModBlocks.ONION_PLANT_STAGE_1.get().asItem());
+			tabData.accept(ChrissModModBlocks.ONION_PLANT_STAGE_2.get().asItem());
 		}
 	}
 }

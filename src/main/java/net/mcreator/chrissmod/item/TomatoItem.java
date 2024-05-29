@@ -1,9 +1,7 @@
 
 package net.mcreator.chrissmod.item;
 
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class TomatoItem extends Item {
 	public TomatoItem() {

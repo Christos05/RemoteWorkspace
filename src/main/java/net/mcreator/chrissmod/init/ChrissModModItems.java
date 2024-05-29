@@ -27,10 +27,11 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> ONION_SEEDS = REGISTRY.register("onion_seeds", () -> new OnionSeedsItem());
 	public static final RegistryObject<Item> PITA = REGISTRY.register("pita", () -> new PitaItem());
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
-	public static final RegistryObject<Item> ONION_PLANT_STAGE_0A = block(ChrissModModBlocks.ONION_PLANT_STAGE_0A);
-	public static final RegistryObject<Item> ONION_PLANT_STAGE_1A = block(ChrissModModBlocks.ONION_PLANT_STAGE_1A);
-	public static final RegistryObject<Item> ONION_PLANT_STAGE_2A = block(ChrissModModBlocks.ONION_PLANT_STAGE_2A);
+	public static final RegistryObject<Item> ONION_PLANT_STAGE_0 = block(ChrissModModBlocks.ONION_PLANT_STAGE_0);
+	public static final RegistryObject<Item> ONION_PLANT_STAGE_1 = block(ChrissModModBlocks.ONION_PLANT_STAGE_1);
+	public static final RegistryObject<Item> ONION_PLANT_STAGE_2 = block(ChrissModModBlocks.ONION_PLANT_STAGE_2);
 	public static final RegistryObject<Item> ONION_PLANT_0 = block(ChrissModModBlocks.ONION_PLANT_0);
+	public static final RegistryObject<Item> TEST = block(ChrissModModBlocks.TEST);
 
 	// Start of user code block custom items
 	// End of user code block custom items
