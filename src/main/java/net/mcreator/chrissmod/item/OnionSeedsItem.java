@@ -1,12 +1,7 @@
 
 package net.mcreator.chrissmod.item;
 
-import net.minecraft.world.item.context.UseOnContext;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.InteractionResult;
-
-import net.mcreator.chrissmod.procedures.OnionSeedsRightclickedOnBlockProcedure;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class OnionSeedsItem extends Item {
 	public OnionSeedsItem() {

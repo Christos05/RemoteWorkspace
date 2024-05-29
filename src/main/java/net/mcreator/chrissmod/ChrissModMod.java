@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.chrissmod.init.ChrissModModTabs;
 import net.mcreator.chrissmod.init.ChrissModModItems;
 import net.mcreator.chrissmod.init.ChrissModModBlocks;
+import net.mcreator.chrissmod.init.ChrissModModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -42,7 +43,7 @@ public class ChrissModMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		ChrissModModBlocks.REGISTRY.register(bus);
-
+		ChrissModModBlockEntities.REGISTRY.register(bus);
 		ChrissModModItems.REGISTRY.register(bus);
 
 		ChrissModModTabs.REGISTRY.register(bus);
