@@ -273,6 +273,49 @@
         ]
       },
       "path": "~/Ioannis WorkSpace/Items"
+    },
+    {
+      "name": "Palouki",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palouki",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/palouki.json",
+          "src/main/java/net/mcreator/chrissmod/item/PaloukiItem.java"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Items"
+    },
+    {
+      "name": "Paloukirecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paloukirecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/palouki_recipe.json"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Recipes"
+    },
+    {
+      "name": "Tsaparecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsaparecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/tsapa_recipe.json"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -281,6 +324,7 @@
   "language_map": {
     "en_us": {
       "item.chriss_mod.knife": "Knife",
+      "item.chriss_mod.palouki": "Palouki",
       "block.chriss_mod.onion_plant_stage_2": "Onion Plant",
       "block.chriss_mod.onion_plant_stage_1": "Onion Plant",
       "painting.chriss_mod.cheesystudios.title": "Cheesystudios",
