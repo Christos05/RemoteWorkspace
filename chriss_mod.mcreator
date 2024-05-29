@@ -224,7 +224,24 @@
         "files": [
           "src/main/java/net/mcreator/chrissmod/procedures/OnionPlantUpdateProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Chris WorkSpace/Procedures"
     },
@@ -283,6 +300,38 @@
         ]
       },
       "path": "~/Chris WorkSpace/Plants/OnionPlant"
+    },
+    {
+      "name": "OnionPlant0BlockAdded",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_plant_0_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/procedures/OnionPlant0BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chris WorkSpace/Procedures"
     }
   ],
   "variable_elements": [],
@@ -323,6 +372,10 @@
           },
           {
             "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "LootTables",
             "children": []
           }
         ]

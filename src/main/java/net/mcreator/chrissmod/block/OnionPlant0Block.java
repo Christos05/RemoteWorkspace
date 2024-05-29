@@ -27,6 +27,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.chrissmod.procedures.OnionPlantUpdateProcedure;
+import net.mcreator.chrissmod.procedures.OnionPlant0BlockAddedProcedure;
 import net.mcreator.chrissmod.procedures.CanPlaceOnionBlockProcedure;
 import net.mcreator.chrissmod.init.ChrissModModItems;
 import net.mcreator.chrissmod.block.entity.OnionPlant0BlockEntity;
@@ -78,12 +79,18 @@ public class OnionPlant0Block extends Block implements EntityBlock {
 	}
 
 	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		OnionPlant0BlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
 	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		OnionPlantUpdateProcedure.execute();
+		OnionPlantUpdateProcedure.execute(world, x, y, z);
 	}
 
 	@Override
