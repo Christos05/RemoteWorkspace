@@ -290,16 +290,16 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.chriss_mod.knife": "Knife",
-      "item.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.onion_plant_3": "Onion Plant 3",
+      "item.chriss_mod.knife": "Knife",
       "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.onion_plant_2": "Onion Plant 2",
       "block.chriss_mod.onion_plant_1": "Onion Plant 1",
       "block.chriss_mod.tomato": "Tomato",
       "block.chriss_mod.onion_plant_0": "Onion Plant 0",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
-      "item.chriss_mod.onion": "Onion"
+      "item.chriss_mod.onion": "Onion",
+      "item.chriss_mod.tomato": "Tomato"
     }
   },
   "foldersRoot": {
