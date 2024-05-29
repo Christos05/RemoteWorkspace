@@ -232,6 +232,20 @@
         ]
       },
       "path": "~/Ioannis WorkSpace/Recipes"
+    },
+    {
+      "name": "Pitarecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pitarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/pita_recipe.json"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
