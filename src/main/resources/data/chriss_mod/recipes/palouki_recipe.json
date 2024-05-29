@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "the_greekss",
+  "group": "the_greeks",
   "category": "equipment",
   "pattern": [
     "a",
-    "b"
+    "a"
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_ingot"
-    },
-    "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "chriss_mod:knife",
+    "item": "chriss_mod:palouki",
     "count": 1
   }
 }

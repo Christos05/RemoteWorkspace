@@ -4,7 +4,7 @@
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
-    "group": "the_greekss",
+    "group": "the_greeks",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
@@ -12,16 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": "Items.IRON_INGOT"
@@ -33,16 +24,25 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:Palouki"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Palouki"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Knife"
+      "value": "CUSTOM:Tsapa"
     },
-    "name": "kniferecipe",
+    "name": "tsapa_recipe",
     "namespace": "mod"
   }
 }

@@ -4,7 +4,7 @@
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
-    "group": "the_greekss",
+    "group": "the_greeks",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Knife"
+      "value": "CUSTOM:Palouki"
     },
-    "name": "kniferecipe",
+    "name": "palouki_recipe",
     "namespace": "mod"
   }
 }
