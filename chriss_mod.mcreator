@@ -404,6 +404,18 @@
         ]
       },
       "path": "~/Ioannis WorkSpace/Recipes"
+    },
+    {
+      "name": "Chessystudioslogo",
+      "type": "painting",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chessystudioslogo",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Ioannis WorkSpace/paintings"
     }
   ],
   "variable_elements": [],
@@ -422,7 +434,9 @@
       "block.chriss_mod.onion_plant_0": "Onion Plant 0",
       "block.chriss_mod.tomato": "Tomato",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
-      "item.chriss_mod.onion": "Onion"
+      "painting.chriss_mod.chessystudioslogo.title": "Chessystudioslogo",
+      "item.chriss_mod.onion": "Onion",
+      "painting.chriss_mod.chessystudioslogo.author": "chessystudios"
     }
   },
   "foldersRoot": {
@@ -472,6 +486,10 @@
           },
           {
             "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "paintings",
             "children": []
           }
         ]
