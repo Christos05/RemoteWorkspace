@@ -415,7 +415,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Ioannis WorkSpace/paintings"
+      "path": "~/Ioannis WorkSpace/Paintings"
     }
   ],
   "variable_elements": [],
@@ -489,7 +489,7 @@
             "children": []
           },
           {
-            "name": "paintings",
+            "name": "Paintings",
             "children": []
           }
         ]
