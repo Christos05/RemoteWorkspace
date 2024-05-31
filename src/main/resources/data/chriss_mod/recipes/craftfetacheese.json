@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "category": "food",
   "experience": 50,
-  "cookingtime": 200,
+  "cookingtime": 2000,
   "ingredient": {
     "item": "minecraft:milk_bucket"
   },

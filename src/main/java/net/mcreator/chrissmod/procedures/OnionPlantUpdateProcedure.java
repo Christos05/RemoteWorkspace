@@ -3,14 +3,9 @@ package net.mcreator.chrissmod.procedures;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.chrissmod.init.ChrissModModBlocks;
-
-import java.util.ArrayList;
 
 public class OnionPlantUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -18,10 +13,6 @@ public class OnionPlantUpdateProcedure {
 		BlockState stage1 = Blocks.AIR.defaultBlockState();
 		BlockState stage2 = Blocks.AIR.defaultBlockState();
 		BlockState stage3 = Blocks.AIR.defaultBlockState();
-		for (Entity entityiterator : new ArrayList<>(world.players())) {
-			if (entityiterator instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("Tick"), false);
-		}
 		stage0 = ChrissModModBlocks.ONION_PLANT_0.get().defaultBlockState();
 		stage1 = ChrissModModBlocks.ONION_PLANT_1.get().defaultBlockState();
 		stage2 = ChrissModModBlocks.ONION_PLANT_2.get().defaultBlockState();
