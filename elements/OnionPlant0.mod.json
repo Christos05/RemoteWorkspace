@@ -58,8 +58,8 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 0,
-    "tickRandomly": true,
+    "tickRate": 600,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -110,8 +110,8 @@
     "openGUIOnRightClick": false,
     "inventorySize": 0,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": true,
+    "inventoryDropWhenDestroyed": false,
+    "inventoryComparatorPower": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,

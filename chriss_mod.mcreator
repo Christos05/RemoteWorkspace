@@ -105,8 +105,8 @@
       "registry_name": "knife",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chriss_mod/models/item/knife.json",
-          "src/main/java/net/mcreator/chrissmod/item/KnifeItem.java"
+          "src/main/java/net/mcreator/chrissmod/item/KnifeItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/knife.json"
         ]
       },
       "path": "~/Ioannis WorkSpace/Items"
@@ -186,7 +186,7 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "can_place_onion_block",
+      "registry_name": "can_place_crop_block",
       "metadata": {
         "return_type": "logic",
         "files": [
@@ -342,8 +342,8 @@
       "registry_name": "tsapa",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chrissmod/item/TsapaItem.java",
-          "src/main/resources/assets/chriss_mod/models/item/tsapa.json"
+          "src/main/resources/assets/chriss_mod/models/item/tsapa.json",
+          "src/main/java/net/mcreator/chrissmod/item/TsapaItem.java"
         ]
       },
       "path": "~/Ioannis WorkSpace/Items"
@@ -445,6 +445,20 @@
         ]
       },
       "path": "~/Chris WorkSpace/LootTables"
+    },
+    {
+      "name": "Craftonionseeds",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftonionseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craftonionseeds.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -494,6 +508,10 @@
           },
           {
             "name": "LootTables",
+            "children": []
+          },
+          {
+            "name": "Recipes",
             "children": []
           }
         ]
