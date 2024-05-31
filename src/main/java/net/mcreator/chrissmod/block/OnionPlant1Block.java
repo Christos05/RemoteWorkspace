@@ -83,7 +83,7 @@ public class OnionPlant1Block extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		OnionPlantUpdateProcedure.execute(world, x, y, z);
+		OnionPlantUpdateProcedure.execute(world, x, y, z, entity);
 	}
 
 	@Override
