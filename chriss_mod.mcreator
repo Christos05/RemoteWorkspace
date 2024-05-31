@@ -416,6 +416,35 @@
         "files": []
       },
       "path": "~/Ioannis WorkSpace/Paintings"
+    },
+    {
+      "name": "Cucamber",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cucamber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/CucamberItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/cucamber.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "OnionLootTable",
+      "type": "loottable",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_3.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/LootTables"
     }
   ],
   "variable_elements": [],
@@ -430,6 +459,7 @@
       "block.chriss_mod.onion_plant_3": "Onion Plant 3",
       "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.onion_plant_2": "Onion Plant 2",
+      "item.chriss_mod.cucamber": "Cucamber",
       "block.chriss_mod.onion_plant_1": "Onion Plant 1",
       "block.chriss_mod.onion_plant_0": "Onion Plant 0",
       "block.chriss_mod.tomato": "Tomato",
