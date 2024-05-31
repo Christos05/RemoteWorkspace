@@ -165,7 +165,7 @@
       "name": "OnionPlant0",
       "type": "block",
       "sortid": 18,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "onion_plant_0",
       "metadata": {
@@ -226,10 +226,6 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -253,7 +249,7 @@
       "name": "OnionPlant1",
       "type": "block",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "onion_plant_1",
       "metadata": {
@@ -272,7 +268,7 @@
       "name": "OnionPlant2",
       "type": "block",
       "sortid": 22,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "onion_plant_2",
       "metadata": {
@@ -291,7 +287,7 @@
       "name": "OnionPlant3",
       "type": "block",
       "sortid": 23,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "onion_plant_3",
       "metadata": {
