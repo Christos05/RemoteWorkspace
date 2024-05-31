@@ -26,6 +26,7 @@ public class ChrissModModTabs {
 			tabData.accept(ChrissModModItems.ONION.get());
 			tabData.accept(ChrissModModItems.ONION_SEEDS.get());
 			tabData.accept(ChrissModModItems.CUCAMBER.get());
+			tabData.accept(ChrissModModItems.FETA_CHEESE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ChrissModModItems.TSAPA.get());
 		}

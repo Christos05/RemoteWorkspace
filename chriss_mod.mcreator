@@ -459,6 +459,35 @@
         ]
       },
       "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "FetaCheese",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feta_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/FetaCheeseItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/feta_cheese.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "Craftfetacheese",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftfetacheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craftfetacheese.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -480,7 +509,8 @@
       "item.chriss_mod.onion_seeds": "Onion Seeds",
       "painting.chriss_mod.chessystudioslogo.title": "Chessystudioslogo",
       "item.chriss_mod.onion": "Onion",
-      "painting.chriss_mod.chessystudioslogo.author": "chessystudios"
+      "painting.chriss_mod.chessystudioslogo.author": "chessystudios",
+      "item.chriss_mod.feta_cheese": "Feta Cheese"
     }
   },
   "foldersRoot": {
