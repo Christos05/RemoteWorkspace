@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "the_greeks",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "chriss_mod:tomato"
+    }
+  },
+  "result": {
+    "item": "chriss_mod:ketchup",
+    "count": 1
+  }
+}

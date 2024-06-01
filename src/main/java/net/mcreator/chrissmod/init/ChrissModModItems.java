@@ -19,6 +19,8 @@ import net.mcreator.chrissmod.item.PaloukiItem;
 import net.mcreator.chrissmod.item.OnionSeedsItem;
 import net.mcreator.chrissmod.item.OnionItem;
 import net.mcreator.chrissmod.item.KnifeItem;
+import net.mcreator.chrissmod.item.KetchupItem;
+import net.mcreator.chrissmod.item.Ketchup2Item;
 import net.mcreator.chrissmod.ChrissModMod;
 
 public class ChrissModModItems {
@@ -34,6 +36,8 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> ONION_PLANT_3 = block(ChrissModModBlocks.ONION_PLANT_3);
 	public static final RegistryObject<Item> TSAPA = REGISTRY.register("tsapa", () -> new TsapaItem());
 	public static final RegistryObject<Item> PALOUKI = REGISTRY.register("palouki", () -> new PaloukiItem());
+	public static final RegistryObject<Item> KETCHUP = REGISTRY.register("ketchup", () -> new KetchupItem());
+	public static final RegistryObject<Item> KETCHUP_2 = REGISTRY.register("ketchup_2", () -> new Ketchup2Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items

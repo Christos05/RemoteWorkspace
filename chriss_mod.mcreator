@@ -416,6 +416,50 @@
         "files": []
       },
       "path": "~/Ioannis WorkSpace/Paintings"
+    },
+    {
+      "name": "Ketchup",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ketchup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/KetchupItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/ketchup.json"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Items"
+    },
+    {
+      "name": "Ketchup2",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ketchup_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/ketchup_2.json",
+          "src/main/java/net/mcreator/chrissmod/item/Ketchup2Item.java"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Items"
+    },
+    {
+      "name": "Ketchuprecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ketchuprecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/ketchuprecipe.json"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -426,7 +470,9 @@
       "item.chriss_mod.knife": "Knife",
       "item.chriss_mod.palouki": "Palouki",
       "item.chriss_mod.tomato": "Tomato",
+      "item.chriss_mod.ketchup_2": "Ketchup 2",
       "item.chriss_mod.tsapa": "Tsapa",
+      "item.chriss_mod.ketchup": "Ketchup",
       "block.chriss_mod.onion_plant_3": "Onion Plant 3",
       "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.onion_plant_2": "Onion Plant 2",
