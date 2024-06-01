@@ -421,7 +421,7 @@
       "name": "Ketchup",
       "type": "item",
       "sortid": 31,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ketchup",
       "metadata": {
@@ -436,7 +436,7 @@
       "name": "Ketchup2",
       "type": "item",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ketchup_2",
       "metadata": {
@@ -493,7 +493,7 @@
       "name": "Cucamber",
       "type": "item",
       "sortid": 31,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cucamber",
       "metadata": {
@@ -536,7 +536,7 @@
       "name": "FetaCheese",
       "type": "item",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "feta_cheese",
       "metadata": {
@@ -565,7 +565,7 @@
       "name": "PotatoMediumCut",
       "type": "item",
       "sortid": 36,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potato_medium_cut",
       "metadata": {
@@ -580,7 +580,7 @@
       "name": "PotatoSmallCut",
       "type": "item",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "potato_small_cut",
       "metadata": {
@@ -595,7 +595,7 @@
       "name": "GreekYogurt",
       "type": "item",
       "sortid": 40,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "greek_yogurt",
       "metadata": {
