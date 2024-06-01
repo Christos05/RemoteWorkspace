@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 25.0,
+    "cookingTime": 2000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.MILK_BUCKET"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:GreekYogurt"
+    },
+    "name": "craft_yogurt",
+    "namespace": "mod"
+  }
+}

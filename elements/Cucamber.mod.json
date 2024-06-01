@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "image",
+    "texture": "cucamber",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Tomato",
+    "name": "Cucamber",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "FOOD"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -41,13 +41,13 @@
       "value": "Arrow"
     },
     "isFood": true,
-    "nutritionalValue": 3,
+    "nutritionalValue": 2,
     "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "none"
   }
 }

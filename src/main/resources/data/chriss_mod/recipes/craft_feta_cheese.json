@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 200,
+  "cookingtime": 5000,
+  "ingredient": {
+    "item": "chriss_mod:deleted_mod_element"
+  },
+  "result": "chriss_mod:feta_cheese"
+}

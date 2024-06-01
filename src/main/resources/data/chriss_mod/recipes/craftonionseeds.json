@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "chriss_mod:onion"
+    }
+  ],
+  "result": {
+    "item": "chriss_mod:onion_seeds",
+    "count": 1
+  }
+}

@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "image",
+    "texture": "potato_small_cut",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Tomato",
+    "name": "Potato Small Cut",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "FOOD"
@@ -41,7 +41,7 @@
       "value": "Arrow"
     },
     "isFood": true,
-    "nutritionalValue": 3,
+    "nutritionalValue": 1,
     "saturation": 0.3,
     "eatResultItem": {
       "value": ""

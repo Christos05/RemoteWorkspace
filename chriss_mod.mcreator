@@ -460,6 +460,165 @@
         ]
       },
       "path": "~/Ioannis WorkSpace/Recipes"
+    },
+    {
+      "name": "CraftPotatoMediumCut",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_potato_medium_cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craft_potato_medium_cut.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "CraftYogurt",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_yogurt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craft_yogurt.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "Cucamber",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cucamber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/CucamberItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/cucamber.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "CraftPotatoSmallCut",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_potato_small_cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craft_potato_small_cut.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "OnionLootTable",
+      "type": "loottable",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/loot_tables/blocks/onion_plant_3.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/LootTables"
+    },
+    {
+      "name": "FetaCheese",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feta_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/FetaCheeseItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/feta_cheese.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "CraftFetaCheese",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_feta_cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craft_feta_cheese.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "PotatoMediumCut",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_medium_cut",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/PotatoMediumCutItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/potato_medium_cut.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "PotatoSmallCut",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_small_cut",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/PotatoSmallCutItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/potato_small_cut.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "GreekYogurt",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greek_yogurt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/greek_yogurt.json",
+          "src/main/java/net/mcreator/chrissmod/item/GreekYogurtItem.java"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "Craftonionseeds",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftonionseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craftonionseeds.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -470,9 +629,7 @@
       "item.chriss_mod.knife": "Knife",
       "item.chriss_mod.palouki": "Palouki",
       "item.chriss_mod.tomato": "Tomato",
-      "item.chriss_mod.ketchup_2": "Ketchup 2",
       "item.chriss_mod.tsapa": "Tsapa",
-      "item.chriss_mod.ketchup": "Ketchup",
       "block.chriss_mod.onion_plant_3": "Onion Plant 3",
       "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.onion_plant_2": "Onion Plant 2",
@@ -489,10 +646,36 @@
     "name": "~",
     "children": [
       {
-        "name": "Chris WorkSpace",
+        "name": "John WorkSpace",
         "children": [
           {
             "name": "Items",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ioannis WorkSpace",
+        "children": [
+          {
+            "name": "Paintings",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Chris WorkSpace",
+        "children": [
+          {
+            "name": "LootTables",
             "children": []
           },
           {
@@ -509,33 +692,11 @@
             "children": []
           },
           {
-            "name": "LootTables",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "John WorkSpace",
-        "children": [
-          {
-            "name": "Items",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Ioannis WorkSpace",
-        "children": [
-          {
-            "name": "Items",
-            "children": []
-          },
-          {
             "name": "Recipes",
             "children": []
           },
           {
-            "name": "Paintings",
+            "name": "Items",
             "children": []
           }
         ]

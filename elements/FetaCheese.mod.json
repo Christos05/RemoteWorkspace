@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "image",
+    "texture": "feta_cheese",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Tomato",
+    "name": "Feta Cheese",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "FOOD"
@@ -41,13 +41,13 @@
       "value": "Arrow"
     },
     "isFood": true,
-    "nutritionalValue": 3,
-    "saturation": 0.3,
+    "nutritionalValue": 4,
+    "saturation": 0.5,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat"
   }
 }
