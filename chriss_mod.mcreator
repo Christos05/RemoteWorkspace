@@ -619,6 +619,21 @@
         ]
       },
       "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "Mustard",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/mustard.json",
+          "src/main/java/net/mcreator/chrissmod/item/MustardItem.java"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Items"
     }
   ],
   "variable_elements": [],
@@ -631,6 +646,7 @@
       "item.chriss_mod.palouki": "Palouki",
       "item.chriss_mod.tomato": "Tomato",
       "item.chriss_mod.ketchup_2": "Ketchup 2",
+      "item.chriss_mod.mustard": "Mustard",
       "item.chriss_mod.tsapa": "Tsapa",
       "item.chriss_mod.ketchup": "Ketchup",
       "item.chriss_mod.greek_yogurt": "Yogurt",
@@ -665,11 +681,11 @@
         "name": "Ioannis WorkSpace",
         "children": [
           {
-            "name": "Paintings",
+            "name": "Recipes",
             "children": []
           },
           {
-            "name": "Recipes",
+            "name": "Paintings",
             "children": []
           },
           {

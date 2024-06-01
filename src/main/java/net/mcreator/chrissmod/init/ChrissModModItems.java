@@ -20,6 +20,7 @@ import net.mcreator.chrissmod.item.PitaItem;
 import net.mcreator.chrissmod.item.PaloukiItem;
 import net.mcreator.chrissmod.item.OnionSeedsItem;
 import net.mcreator.chrissmod.item.OnionItem;
+import net.mcreator.chrissmod.item.MustardItem;
 import net.mcreator.chrissmod.item.KnifeItem;
 import net.mcreator.chrissmod.item.KetchupItem;
 import net.mcreator.chrissmod.item.Ketchup2Item;
@@ -48,6 +49,7 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> POTATO_MEDIUM_CUT = REGISTRY.register("potato_medium_cut", () -> new PotatoMediumCutItem());
 	public static final RegistryObject<Item> POTATO_SMALL_CUT = REGISTRY.register("potato_small_cut", () -> new PotatoSmallCutItem());
 	public static final RegistryObject<Item> GREEK_YOGURT = REGISTRY.register("greek_yogurt", () -> new GreekYogurtItem());
+	public static final RegistryObject<Item> MUSTARD = REGISTRY.register("mustard", () -> new MustardItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
