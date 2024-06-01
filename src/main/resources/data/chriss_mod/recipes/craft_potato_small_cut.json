@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "chriss_mod:deleted_mod_element"
+      "item": "chriss_mod:potato_medium_cut"
     }
   ],
   "result": {
-    "item": "chriss_mod:deleted_mod_element",
+    "item": "chriss_mod:potato_small_cut",
     "count": 1
   }
 }
