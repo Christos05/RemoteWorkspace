@@ -14,6 +14,8 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.chrissmod.item.TsapaItem;
 import net.mcreator.chrissmod.item.TomatoItem;
+import net.mcreator.chrissmod.item.PotatoSmallCutItem;
+import net.mcreator.chrissmod.item.PotatoMediumCutItem;
 import net.mcreator.chrissmod.item.PitaItem;
 import net.mcreator.chrissmod.item.PaloukiItem;
 import net.mcreator.chrissmod.item.OnionSeedsItem;
@@ -38,6 +40,8 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> PALOUKI = REGISTRY.register("palouki", () -> new PaloukiItem());
 	public static final RegistryObject<Item> CUCAMBER = REGISTRY.register("cucamber", () -> new CucamberItem());
 	public static final RegistryObject<Item> FETA_CHEESE = REGISTRY.register("feta_cheese", () -> new FetaCheeseItem());
+	public static final RegistryObject<Item> POTATO_MEDIUM_CUT = REGISTRY.register("potato_medium_cut", () -> new PotatoMediumCutItem());
+	public static final RegistryObject<Item> POTATO_SMALL_CUT = REGISTRY.register("potato_small_cut", () -> new PotatoSmallCutItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

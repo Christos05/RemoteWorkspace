@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "chriss_mod:potato_medium_cut"
+    }
+  ],
+  "result": {
+    "item": "chriss_mod:potato_small_cut",
+    "count": 1
+  }
+}

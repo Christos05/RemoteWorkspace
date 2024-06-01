@@ -488,6 +488,64 @@
         ]
       },
       "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "PotatoMediumCut",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_medium_cut",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/PotatoMediumCutItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/potato_medium_cut.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "PotatoSmallCut",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_small_cut",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chrissmod/item/PotatoSmallCutItem.java",
+          "src/main/resources/assets/chriss_mod/models/item/potato_small_cut.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "CraftPotatoMediumCut",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_potato_medium_cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craft_potato_medium_cut.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "CraftPotatoSmallCut",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_potato_small_cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craft_potato_small_cut.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -496,6 +554,7 @@
   "language_map": {
     "en_us": {
       "item.chriss_mod.knife": "Knife",
+      "item.chriss_mod.potato_medium_cut": "Potato Medium Cut",
       "item.chriss_mod.palouki": "Palouki",
       "item.chriss_mod.tomato": "Tomato",
       "item.chriss_mod.tsapa": "Tsapa",
@@ -507,6 +566,7 @@
       "block.chriss_mod.onion_plant_0": "Onion Plant 0",
       "block.chriss_mod.tomato": "Tomato",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
+      "item.chriss_mod.potato_small_cut": "Potato Small Cut",
       "painting.chriss_mod.chessystudioslogo.title": "Chessystudioslogo",
       "item.chriss_mod.onion": "Onion",
       "painting.chriss_mod.chessystudioslogo.author": "chessystudios",
