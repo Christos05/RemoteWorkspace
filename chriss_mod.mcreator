@@ -476,20 +476,6 @@
       "path": "~/Chris WorkSpace/Items"
     },
     {
-      "name": "Craftfetacheese",
-      "type": "recipe",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craftfetacheese",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chriss_mod/recipes/craftfetacheese.json"
-        ]
-      },
-      "path": "~/Chris WorkSpace/Recipes"
-    },
-    {
       "name": "PotatoMediumCut",
       "type": "item",
       "sortid": 36,
@@ -546,6 +532,49 @@
         ]
       },
       "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "GreekYogurt",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greek_yogurt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/greek_yogurt.json",
+          "src/main/java/net/mcreator/chrissmod/item/GreekYogurtItem.java"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Items"
+    },
+    {
+      "name": "CraftYogurt",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_yogurt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craft_yogurt.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
+    },
+    {
+      "name": "CraftFetaCheese",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_feta_cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/craft_feta_cheese.json"
+        ]
+      },
+      "path": "~/Chris WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -558,6 +587,7 @@
       "item.chriss_mod.palouki": "Palouki",
       "item.chriss_mod.tomato": "Tomato",
       "item.chriss_mod.tsapa": "Tsapa",
+      "item.chriss_mod.greek_yogurt": "Yogurt",
       "block.chriss_mod.onion_plant_3": "Onion Plant 3",
       "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.onion_plant_2": "Onion Plant 2",

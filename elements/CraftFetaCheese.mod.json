@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 200.0,
+    "cookingTime": 5000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:GreekYogurt"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:FetaCheese"
+    },
+    "name": "craft_feta_cheese",
+    "namespace": "mod"
+  }
+}

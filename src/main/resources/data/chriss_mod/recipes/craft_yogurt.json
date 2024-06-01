@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smelting",
-  "category": "food",
-  "experience": 50,
+  "category": "misc",
+  "experience": 25,
   "cookingtime": 2000,
   "ingredient": {
     "item": "minecraft:milk_bucket"
   },
-  "result": "chriss_mod:feta_cheese"
+  "result": "chriss_mod:greek_yogurt"
 }
