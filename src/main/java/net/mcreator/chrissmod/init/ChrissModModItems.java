@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.chrissmod.item.Tzatziki1Item;
 import net.mcreator.chrissmod.item.TsapaItem;
 import net.mcreator.chrissmod.item.TomatoItem;
 import net.mcreator.chrissmod.item.PotatoSmallCutItem;
@@ -50,6 +51,7 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> POTATO_SMALL_CUT = REGISTRY.register("potato_small_cut", () -> new PotatoSmallCutItem());
 	public static final RegistryObject<Item> GREEK_YOGURT = REGISTRY.register("greek_yogurt", () -> new GreekYogurtItem());
 	public static final RegistryObject<Item> MUSTARD = REGISTRY.register("mustard", () -> new MustardItem());
+	public static final RegistryObject<Item> TZATZIKI_1 = REGISTRY.register("tzatziki_1", () -> new Tzatziki1Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items

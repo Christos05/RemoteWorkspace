@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "chriss_mod:cucamber"
+    },
+    "b": {
+      "item": "chriss_mod:greek_yogurt"
+    },
+    "c": {
+      "item": "chriss_mod:onion"
+    },
+    "d": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "chriss_mod:tzatziki_1",
+    "count": 1
+  }
+}

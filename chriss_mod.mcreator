@@ -634,6 +634,35 @@
         ]
       },
       "path": "~/Ioannis WorkSpace/Items"
+    },
+    {
+      "name": "Tzatziki1",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tzatziki_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chriss_mod/models/item/tzatziki_1.json",
+          "src/main/java/net/mcreator/chrissmod/item/Tzatziki1Item.java"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Items"
+    },
+    {
+      "name": "Tzatziki",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tzatziki",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chriss_mod/recipes/tzatziki.json"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -662,7 +691,8 @@
       "painting.chriss_mod.chessystudioslogo.title": "Chessystudioslogo",
       "item.chriss_mod.onion": "Onion",
       "painting.chriss_mod.chessystudioslogo.author": "chessystudios",
-      "item.chriss_mod.feta_cheese": "Feta Cheese"
+      "item.chriss_mod.feta_cheese": "Feta Cheese",
+      "item.chriss_mod.tzatziki_1": "Tzatziki 1"
     }
   },
   "foldersRoot": {
