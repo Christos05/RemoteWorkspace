@@ -7,18 +7,18 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Tzatziki 1",
-    "rarity": "COMMON",
+    "name": "Tzatziki",
+    "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "FOOD"
     },
-    "stackSize": 64,
+    "stackSize": 32,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 1,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
-      "value": ""
+      "value": "CUSTOM:Tzatziki1"
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
@@ -30,7 +30,7 @@
       "fixedValue": []
     },
     "glowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -40,14 +40,14 @@
     "projectile": {
       "value": "Arrow"
     },
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "isFood": true,
+    "nutritionalValue": 3,
+    "saturation": 1.6,
     "eatResultItem": {
-      "value": ""
+      "value": "Items.BOWL"
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "none"
+    "animation": "eat"
   }
 }

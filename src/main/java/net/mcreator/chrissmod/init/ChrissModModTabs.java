@@ -30,6 +30,7 @@ public class ChrissModModTabs {
 			tabData.accept(ChrissModModItems.POTATO_MEDIUM_CUT.get());
 			tabData.accept(ChrissModModItems.POTATO_SMALL_CUT.get());
 			tabData.accept(ChrissModModItems.GREEK_YOGURT.get());
+			tabData.accept(ChrissModModItems.TZATZIKI.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ChrissModModItems.TSAPA.get());
 		}

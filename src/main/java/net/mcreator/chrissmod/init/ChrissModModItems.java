@@ -51,7 +51,7 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> POTATO_SMALL_CUT = REGISTRY.register("potato_small_cut", () -> new PotatoSmallCutItem());
 	public static final RegistryObject<Item> GREEK_YOGURT = REGISTRY.register("greek_yogurt", () -> new GreekYogurtItem());
 	public static final RegistryObject<Item> MUSTARD = REGISTRY.register("mustard", () -> new MustardItem());
-	public static final RegistryObject<Item> TZATZIKI_1 = REGISTRY.register("tzatziki_1", () -> new Tzatziki1Item());
+	public static final RegistryObject<Item> TZATZIKI = REGISTRY.register("tzatziki", () -> new Tzatziki1Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items
