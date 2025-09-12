@@ -670,6 +670,7 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
+      "item.chriss_mod.knife": "Knife",
       "item.chriss_mod.potato_medium_cut": "Potato Medium Cut",
       "item.chriss_mod.palouki": "Palouki",
       "item.chriss_mod.tzatziki": "Tzatziki",
@@ -677,6 +678,8 @@
       "item.chriss_mod.ketchup_2": "Ketchup 2",
       "item.chriss_mod.mustard": "Mustard",
       "item.chriss_mod.ketchup": "Ketchup",
+      "item.chriss_mod.tsapa": "Tsapa",
+      "item.chriss_mod.greek_yogurt": "Yogurt",
       "block.chriss_mod.onion_plant_3": "Onion Plant 3",
       "item.chriss_mod.pita": "Pita",
       "block.chriss_mod.onion_plant_2": "Onion Plant 2",
@@ -684,15 +687,12 @@
       "block.chriss_mod.onion_plant_1": "Onion Plant 1",
       "block.chriss_mod.onion_plant_0": "Onion Plant 0",
       "block.chriss_mod.tomato": "Tomato",
-      "item.chriss_mod.potato_small_cut": "Potato Small Cut",
-      "item.chriss_mod.onion": "Onion",
-      "item.chriss_mod.feta_cheese": "Feta Cheese",
-      "item.chriss_mod.knife": "Knife",
-      "item.chriss_mod.tsapa": "Tsapa",
-      "item.chriss_mod.greek_yogurt": "Yogurt",
       "item.chriss_mod.onion_seeds": "Onion Seeds",
+      "item.chriss_mod.potato_small_cut": "Potato Small Cut",
       "painting.chriss_mod.chessystudioslogo.title": "Chessystudioslogo",
-      "painting.chriss_mod.chessystudioslogo.author": "chessystudios"
+      "item.chriss_mod.onion": "Onion",
+      "painting.chriss_mod.chessystudioslogo.author": "chessystudios",
+      "item.chriss_mod.feta_cheese": "Feta Cheese"
     }
   },
   "foldersRoot": {
