@@ -22,7 +22,6 @@ import net.mcreator.chrissmod.item.PaloukiItem;
 import net.mcreator.chrissmod.item.OnionSeedsItem;
 import net.mcreator.chrissmod.item.OnionItem;
 import net.mcreator.chrissmod.item.MustardItem;
-import net.mcreator.chrissmod.item.KnifeItem;
 import net.mcreator.chrissmod.item.KetchupItem;
 import net.mcreator.chrissmod.item.Ketchup2Item;
 import net.mcreator.chrissmod.item.GreekYogurtItem;
@@ -36,7 +35,6 @@ public class ChrissModModItems {
 	public static final RegistryObject<Item> ONION = REGISTRY.register("onion", () -> new OnionItem());
 	public static final RegistryObject<Item> ONION_SEEDS = REGISTRY.register("onion_seeds", () -> new OnionSeedsItem());
 	public static final RegistryObject<Item> PITA = REGISTRY.register("pita", () -> new PitaItem());
-	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
 	public static final RegistryObject<Item> ONION_PLANT_0 = block(ChrissModModBlocks.ONION_PLANT_0);
 	public static final RegistryObject<Item> ONION_PLANT_1 = block(ChrissModModBlocks.ONION_PLANT_1);
 	public static final RegistryObject<Item> ONION_PLANT_2 = block(ChrissModModBlocks.ONION_PLANT_2);

@@ -3,13 +3,13 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
-    "group": "th_greeks",
+    "recipeRetstackSize": 4,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
@@ -21,28 +21,28 @@
         "value": ""
       },
       {
+        "value": "Blocks.QUARTZ_BLOCK#3"
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#3"
+      },
+      {
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Knife"
+      "value": "Items.BOWL"
     },
-    "name": "kniferecipe",
-    "namespace": "mod"
+    "name": "white_bowl",
+    "namespace": "minecraft"
   }
 }

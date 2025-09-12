@@ -97,21 +97,6 @@
       "path": "~/Ioannis WorkSpace/Items"
     },
     {
-      "name": "Knife",
-      "type": "item",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "knife",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chriss_mod/models/item/knife.json",
-          "src/main/java/net/mcreator/chrissmod/item/KnifeItem.java"
-        ]
-      },
-      "path": "~/Ioannis WorkSpace/Items"
-    },
-    {
       "name": "FarmLandCheckLoop",
       "type": "procedure",
       "sortid": 13,
@@ -146,20 +131,6 @@
         ]
       },
       "path": "~/Chris WorkSpace/Procedures"
-    },
-    {
-      "name": "Kniferecipe",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kniferecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chriss_mod/recipes/kniferecipe.json"
-        ]
-      },
-      "path": "~/Ioannis WorkSpace/Recipes"
     },
     {
       "name": "OnionPlant0",
@@ -663,6 +634,20 @@
         ]
       },
       "path": "~/Ioannis WorkSpace/Recipes"
+    },
+    {
+      "name": "WhiteBowl",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_bowl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/white_bowl.json"
+        ]
+      },
+      "path": "~/Ioannis WorkSpace/Recipes"
     }
   ],
   "variable_elements": [],
@@ -670,7 +655,6 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.chriss_mod.knife": "Knife",
       "item.chriss_mod.potato_medium_cut": "Potato Medium Cut",
       "item.chriss_mod.palouki": "Palouki",
       "item.chriss_mod.tzatziki": "Tzatziki",
